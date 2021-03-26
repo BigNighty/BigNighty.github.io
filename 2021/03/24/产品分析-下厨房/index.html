@@ -18,11 +18,8 @@
 <meta property="og:image" content="https://i.loli.net/2021/03/25/5K8sIvpHBwGVNEq.png">
 <meta property="og:image" content="https://i.loli.net/2021/03/25/w63AGHdeD2gu7rp.png">
 <meta property="og:image" content="https://i.loli.net/2021/03/25/2NPcjuBq5KL4URm.png">
-<meta property="og:image" content="https://i.loli.net/2021/03/25/QClbnG9PNRgpSeO.png">
-<meta property="og:image" content="https://i.loli.net/2021/03/25/2hCZsNlko9LxJdA.png">
-<meta property="og:image" content="https://i.loli.net/2021/03/25/zLEQAWxRNkVwdG2.png">
 <meta property="article:published_time" content="2021-03-24T19:06:00.000Z">
-<meta property="article:modified_time" content="2021-03-25T12:56:52.215Z">
+<meta property="article:modified_time" content="2021-03-26T00:01:19.822Z">
 <meta property="article:author" content="CHUANG">
 <meta property="article:tag" content="产品分析">
 <meta name="twitter:card" content="summary">
@@ -202,41 +199,91 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>唯有爱与美食不可辜负<span id="more"></span></p>
-<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>民以食为天，饮食在人们的生活中占了很大的地位。下厨房是我来到英国日常使用的APP，原因很简单：我要恰饭的嘛。不同于在大学期间每天吃食堂，不想吃食堂就点外卖的生活，在国外就只能被迫自己动手解决吃饭问题——外卖实在太贵了。</p>
-<p>下厨房是一款工具+社交类的APP，核心功能是提供菜谱和做菜方法，同时建立一个用户交流的平台。我自己的使用体验很好，所以在本文中尝试使用产品分析模板来对这款应用进行分析，探究其出色的原因，理解其UI和功能设计，希望在“产品感”上得到启发。</p>
+<h2 id="一、前言"><a href="#一、前言" class="headerlink" title="一、前言"></a>一、前言</h2><p>民以食为天，饮食在人们的生活中占了很大的地位。下厨房是我来到英国日常使用的APP，原因很简单：我要恰饭的嘛。不同于在大学期间每天吃食堂，不想吃食堂就点外卖的生活，在国外就只能被迫自己动手解决吃饭问题——外卖实在太贵了。由于没有企业邮箱，不能申请到易观千帆的试用功能，所以以下的一些分析数据来源于网络（可能有的已经过时，但基本是符合的）。</p>
+<p>撰写本文的目的是熟悉产品分析的流程，同时加强对产品的感觉。内容上还有很多不足，也可以说是目力可及的残缺的产品分析。所以此文会进行长期的修改和补充，相信一段时间以后能够是一篇能拿得出手的产品分析文。</p>
 <h2 id="二、体验环境"><a href="#二、体验环境" class="headerlink" title="二、体验环境"></a>二、体验环境</h2><ul>
 <li>体验机型：iPhoneXR</li>
 <li>体验系统：14.0.1</li>
 <li>体验网络环境：Wifi</li>
 <li>体验产品版本：237.8.1</li>
 </ul>
-<h2 id="三、产品功能框架结构"><a href="#三、产品功能框架结构" class="headerlink" title="三、产品功能框架结构"></a>三、产品功能框架结构</h2><h4 id="3-1-产品功能架构图"><a href="#3-1-产品功能架构图" class="headerlink" title="3.1 产品功能架构图"></a>3.1 产品功能架构图</h4><h4 id="3-2-用户使用路径"><a href="#3-2-用户使用路径" class="headerlink" title="3.2 用户使用路径"></a>3.2 用户使用路径</h4><p>3.2.1 搜索菜谱</p>
+<h2 id="三、产品功能框架结构"><a href="#三、产品功能框架结构" class="headerlink" title="三、产品功能框架结构"></a>三、产品功能框架结构</h2><h4 id="3-1-产品功能架构图"><a href="#3-1-产品功能架构图" class="headerlink" title="3.1 产品功能架构图"></a>3.1 产品功能架构图</h4><p>（一开始是使用Mindmaster绘制，结果绘制到第100个结点的时候提示我非会员不能再操作了，因此只好考虑其它绘制思维导图的软件从头再来，先空着，会补全的）</p>
+<h4 id="3-2-用户使用路径"><a href="#3-2-用户使用路径" class="headerlink" title="3.2 用户使用路径"></a>3.2 用户使用路径</h4><p>3.2.1 搜索菜谱</p>
 <p><img src="https://i.loli.net/2021/03/25/5K8sIvpHBwGVNEq.png" alt="查找菜谱"></p>
 <p>3.2.2 创建菜谱</p>
 <p><img src="https://i.loli.net/2021/03/25/w63AGHdeD2gu7rp.png" alt="上传菜谱"></p>
 <p>3.2.3 查看作品</p>
 <img src="https://i.loli.net/2021/03/25/2NPcjuBq5KL4URm.png" alt="查看菜谱" style="zoom:50%;" />
 
-<p>3.2.4 发布作品</p>
-<p><img src="https://i.loli.net/2021/03/25/QClbnG9PNRgpSeO.png" alt="发布作品"></p>
-<p>3.2.5 市集购物</p>
-<img src="https://i.loli.net/2021/03/25/2hCZsNlko9LxJdA.png" alt="市集购物" style="zoom: 50%;" />
-
-<p>3.2.6 课程学习</p>
- <img src="https://i.loli.net/2021/03/25/zLEQAWxRNkVwdG2.png" alt="课程学习" style="zoom:50%;" />
-
-
-
 
 
 <h1 id="四、市场分析"><a href="#四、市场分析" class="headerlink" title="四、市场分析"></a>四、市场分析</h1><h3 id="4-1-下厨房APP的发展历程和产品定位"><a href="#4-1-下厨房APP的发展历程和产品定位" class="headerlink" title="4.1 下厨房APP的发展历程和产品定位"></a>4.1 下厨房APP的发展历程和产品定位</h3><h4 id="4-1-1-发展历程"><a href="#4-1-1-发展历程" class="headerlink" title="4.1.1 发展历程"></a>4.1.1 发展历程</h4><ul>
 <li>2011年，下厨房网站上线，同年推出下厨房APP，打开了移动互联网市场</li>
-<li>2014年，下厨房上线“市集”功能，引入了电商板块（七麦数据）</li>
-<li>2017年，下厨房上线厨studio直播课程（七麦数据）</li>
+<li>2014年，下厨房上线“市集”功能，引入了电商板块</li>
+<li>2017年，下厨房上线厨studio直播课程</li>
 <li>2018年9月，美食社区全行业日活266万， 下厨房日活达135.6万，占据行业日活一半以上，行业独占率39.8%，活跃人数行业渗透率59.4%，均处于行业第一的位置。（易观数据）</li>
 </ul>
-<h4 id="4-1-2-产品定位"><a href="#4-1-2-产品定位" class="headerlink" title="4.1.2 产品定位"></a>4.1.2 产品定位</h4><p>下厨房首先是作为一款工具类产品，其核心功能是提供给用户菜谱，分享厨艺。下厨房首先打造了社区平台，通过UGC的方式吸引用户参与分享。在形成工具社交类的综合产品后，又相继打造垂直的电商平台和以视频为主，图文为辅的付费平台，实现盈利。因此下厨房是一款通过电商和内容付费盈利的美食社区类产品。</p>
-<h4 id="4-1-3-用户分析"><a href="#4-1-3-用户分析" class="headerlink" title="4.1.3 用户分析"></a>4.1.3 用户分析</h4><p>按照使用目的，用户可以分为：想学习做菜的人，分享做菜心得的人。</p>
+<h4 id="4-1-2-产品定位"><a href="#4-1-2-产品定位" class="headerlink" title="4.1.2 产品定位"></a>4.1.2 产品定位</h4><p>下厨房首先是作为一款工具类产品，其核心功能是提供给用户菜谱，分享厨艺。下厨房首先打造了社区平台，通过UGC的方式吸引用户参与分享。在形成工具社交类的综合产品后，又相继打造垂直的电商平台和以视频为主，图文为辅的付费平台，实现盈利。因此我们可以推断下厨房APP在市场中的定位是：</p>
+<ol>
+<li>工具性：根绝各种不同的分类提供菜谱</li>
+<li>社区板块：提供分享菜谱和厨艺的平台</li>
+<li>电商：“市集”模块</li>
+<li>内容付费：“课堂”模块</li>
+</ol>
+<h4 id="4-1-3-用户分析"><a href="#4-1-3-用户分析" class="headerlink" title="4.1.3 用户分析"></a>4.1.3 用户分析</h4><p>根据常识，可以对先做一个预判：女性较多，有一定消费能力，愿意花时间下厨</p>
+<p>根据使用场景，用户可以分为以下四类</p>
+<table>
+<thead>
+<tr>
+<th align="left">使用场景</th>
+<th align="left">用户行为</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">想自己下厨，但不知道吃什么</td>
+<td align="left">搜索菜谱</td>
+</tr>
+<tr>
+<td align="left">想吃某种食物，但不知道怎么做好吃</td>
+<td align="left">搜索食材</td>
+</tr>
+<tr>
+<td align="left">想吃某种菜，但不知道怎么做</td>
+<td align="left">搜索菜名</td>
+</tr>
+<tr>
+<td align="left">想分享自己的厨艺</td>
+<td align="left">发布菜谱</td>
+</tr>
+<tr>
+<td align="left">想通过学习提高自己的厨艺</td>
+<td align="left">购买会员或购买付费课程</td>
+</tr>
+<tr>
+<td align="left">购买自己需要的食材或厨具</td>
+<td align="left">上“市集”搜索</td>
+</tr>
+</tbody></table>
+<p>根据易观千帆的数据对用户属性进行分析，有以下几个方面：</p>
+<ul>
+<li>用户性别中女性占比约88%，符合女性相比男性下厨更多的实际情况</li>
+<li>用户年龄24-30之间的比较多，符合用户刚进入社会，有一定空闲的时间来自己做饭，但同时又不知道怎么做，所以选择此款产品解决自己的做菜需求</li>
+<li>地域分布主要在长江三角区、珠江三角区、华北等发达地区，表明用户具有一定的消费水平</li>
+</ul>
+<p>综上，可以推断下厨房的主要用户群体是有居住在发达地区的女青年。</p>
+<h2 id="功能分析"><a href="#功能分析" class="headerlink" title="功能分析"></a>功能分析</h2><p>功能分析可以按照功能结构图展开：</p>
+<ol>
+<li>首页：菜谱推荐</li>
+<li>市集：电子商城</li>
+<li>课堂：内容付费</li>
+<li>收藏：查看收藏和浏览历史</li>
+<li>我：用户管理页</li>
+</ol>
+<h2 id="产品总结"><a href="#产品总结" class="headerlink" title="产品总结"></a>产品总结</h2><p>首先从功能迭代上来看，下厨房经过6年的发展，从一个简单的工具社区类产品，变成一个兼具知识付费和电商平台的多元化美食社区，用户数行业第一的成绩斐然。可以看到，在引入内容付费板块以后，下厨房之后的迭代更新更多的是在做一些基础上的优化，给与用户更好的体验，所以就导致了用户数量稳定，增长缓慢的情况。</p>
+<p>在运营方面，下厨房可以考虑和其他平台合作，增加曝光度，比如和B站美食区合作，开展活动，打卡发布做菜视频可以瓜分奖金等。瓜分奖金是今年比较常见到的引流手段，小红书，B站都有完成相应任务就可以得到对应现金的奖励，以此增加用户数目和活跃用户数量，发掘更多优质的KOL。</p>
+<p>在首页方面，关注和推荐是核心功能，保证它简单，方便，就是很好的。而在视频部分有些许可提升的地方，如增加倍速功能，方便用户快速浏览；增加节点跳转，方便用户观看做菜的某一个步骤。</p>
+<p>在电商方面，下厨房可以考虑自己独特的用户特征，与其他一些电商平台做差异化。这让笔者想到直播，因为很多有社区性质的APP都会提供直播功能，尤其是电商社区，直播带货很火。但是直播是否适合下厨房呢？笔者认为也许是不太适合的。因为根据数据表明，用户日留存时间为11分钟，表明下厨房核心上作为一个提供菜谱的工具性APP，用户在满足了自己的基本需求之后，就退出软件了，并不会把过多的时间花费在浏览视频上（如果想看视频，还有其他很多app可以选择）。所以引入直播这一想法应该有待商榷。（或许这也是下厨房一直没有直播功能的原因，不盲目跟风的产品是理智的）</p>
+<p>在内容付费方面，可以加强课程质量，引入流量KOL（比如其他平台美食区的网红用户）开设课程，吸引用户参与。或者可以做系列主题的教学课程，比如开设电影主题课程，把一些电影中出现过的美食场景复现成菜谱，这样会吸引一些影迷用户的参与，同时也符合产品文艺的定位。毕竟唯有爱与美食，不可辜负。</p>
 
       
 
@@ -349,7 +396,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">一、前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%BD%93%E9%AA%8C%E7%8E%AF%E5%A2%83"><span class="toc-number">2.</span> <span class="toc-text">二、体验环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6%E7%BB%93%E6%9E%84"><span class="toc-number">3.</span> <span class="toc-text">三、产品功能框架结构</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD%E6%9E%B6%E6%9E%84%E5%9B%BE"><span class="toc-number">3.0.1.</span> <span class="toc-text">3.1 产品功能架构图</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E8%B7%AF%E5%BE%84"><span class="toc-number">3.0.2.</span> <span class="toc-text">3.2 用户使用路径</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%B8%82%E5%9C%BA%E5%88%86%E6%9E%90"><span class="toc-number"></span> <span class="toc-text">四、市场分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E4%B8%8B%E5%8E%A8%E6%88%BFAPP%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E5%92%8C%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D"><span class="toc-number">0.1.</span> <span class="toc-text">4.1 下厨房APP的发展历程和产品定位</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-1-%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B"><span class="toc-number">0.1.1.</span> <span class="toc-text">4.1.1 发展历程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-2-%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D"><span class="toc-number">0.1.2.</span> <span class="toc-text">4.1.2 产品定位</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-3-%E7%94%A8%E6%88%B7%E5%88%86%E6%9E%90"><span class="toc-number">0.1.3.</span> <span class="toc-text">4.1.3 用户分析</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">一、前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%BD%93%E9%AA%8C%E7%8E%AF%E5%A2%83"><span class="toc-number">2.</span> <span class="toc-text">二、体验环境</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD%E6%A1%86%E6%9E%B6%E7%BB%93%E6%9E%84"><span class="toc-number">3.</span> <span class="toc-text">三、产品功能框架结构</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD%E6%9E%B6%E6%9E%84%E5%9B%BE"><span class="toc-number">3.0.1.</span> <span class="toc-text">3.1 产品功能架构图</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E8%B7%AF%E5%BE%84"><span class="toc-number">3.0.2.</span> <span class="toc-text">3.2 用户使用路径</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%B8%82%E5%9C%BA%E5%88%86%E6%9E%90"><span class="toc-number"></span> <span class="toc-text">四、市场分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E4%B8%8B%E5%8E%A8%E6%88%BFAPP%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E5%92%8C%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D"><span class="toc-number">0.1.</span> <span class="toc-text">4.1 下厨房APP的发展历程和产品定位</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-1-%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B"><span class="toc-number">0.1.1.</span> <span class="toc-text">4.1.1 发展历程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-2-%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D"><span class="toc-number">0.1.2.</span> <span class="toc-text">4.1.2 产品定位</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-1-3-%E7%94%A8%E6%88%B7%E5%88%86%E6%9E%90"><span class="toc-number">0.1.3.</span> <span class="toc-text">4.1.3 用户分析</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">1.</span> <span class="toc-text">功能分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%A7%E5%93%81%E6%80%BB%E7%BB%93"><span class="toc-number">2.</span> <span class="toc-text">产品总结</span></a></li></ol>
                     </div>
                 </span>
             </div>
